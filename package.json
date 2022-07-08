@@ -1,9 +1,9 @@
 {
-  "name": "template-vitejs-react18-typescript-eslint-prettier",
+  "name": "template-vitejs-react18-typescript-eslint-prettier-husky",
   "private": true,
-  "version": "0.0.1",
-  "homepage": "https://github.com/javuscriptus/Template-ViteJS-React18-Typescript-Eslint-Prettier/blob/main/README.md",
-  "url": "https://github.com/javuscriptus/Template-ViteJS-React18-Typescript-Eslint-Prettier/issues",
+  "version": "0.0.2",
+  "homepage": "https://github.com/javuscriptus/Template-ViteJS-React18-Typescript-Eslint-Prettier-Husky/blob/main/README.md",
+  "url": "https://github.com/javuscriptus/Template-ViteJS-React18-Typescript-Eslint-Prettier-Husky/issues",
   "author": "JavuScriptus <javus.scriptus911@gmail.com> (https://github.com/javuscriptus)",
   "licenses": [
     {
@@ -37,11 +37,18 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
     "prettier": "^2.5.1",
     "typescript": "^4.6.3",
     "url": "^0.11.0",
     "vite": "^2.9.9",
     "vite-plugin-fonts": "^0.5.0",
     "vite-plugin-svgr": "^2.2.0"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx,jsx}": [
+      "yarn lint"
+    ]
   }
 }
