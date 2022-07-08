@@ -1,5 +1,4 @@
 import react from '@vitejs/plugin-react';
-import reactRefresh from '@vitejs/plugin-react-refresh';
 import { fileURLToPath, URL } from 'url';
 import { defineConfig } from 'vite';
 import { VitePluginFonts } from 'vite-plugin-fonts';
@@ -24,7 +23,6 @@ export default defineConfig({
       },
     }),
     react(),
-    reactRefresh(),
   ],
   resolve: {
     alias: {
