@@ -39,8 +39,8 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',
-    'no-unused-vars': 'off',
-    'no-use-before-define': 'off',
+    'no-unused-vars': 'warn',
+    'no-use-before-define': 'warn',
     'jsx-a11y/anchor-is-valid': [
       'error',
       {
